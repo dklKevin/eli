@@ -17,7 +17,7 @@
 
 ## Demo
 
-[Watch the 16 second demo](demo/eli-demo.mp4)
+[Watch the 20 second demo](demo/eli-demo.mp4)
 
 <video src="demo/eli-demo.mp4" width="960" controls></video>
 
