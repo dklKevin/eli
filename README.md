@@ -1,5 +1,8 @@
-# Eli
+# Eli - AI Agent that ___
 
+At Yale, 86 percent of graduate and professional students live off campus.
+
+When a 
 A Yale student rents off campus in New Haven, at 18 Quill Street, Apartment 4.
 Quill Harbor LLC owns the building.
 The place and the lease are fictional.
