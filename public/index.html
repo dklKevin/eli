@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eli</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-serif-4-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <section id="sign">
+    <div class="sign-card">
+      <svg viewBox="0 0 120 72" role="img" aria-label="Eli"><g fill="#2a5bd7"><rect x="4" y="10" width="14" height="52" rx="3"/><rect x="4" y="10" width="40" height="14" rx="3"/><rect x="4" y="29" width="50" height="14" rx="3"/><rect x="4" y="48" width="40" height="14" rx="3"/><rect x="66" y="10" width="14" height="52" rx="3"/><rect x="92" y="28" width="14" height="34" rx="3"/><circle cx="99" cy="17" r="7"/></g></svg>
+      <p class="lede">Off-campus problems in New Haven.</p>
+      <form id="sign-form">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" maxlength="80" required>
+        <button class="primary" type="submit">Continue</button>
+      </form>
+      <p class="fine">A local sign-in. Not a school account.</p>
+      <p id="sign-key" class="fine key-note" hidden></p>
+    </div>
+  </section>
+
+  <section id="chat" hidden>
+    <header class="chat-head wrap">
+      <svg viewBox="0 0 120 72" role="img" aria-label="Eli"><g fill="#2a5bd7"><rect x="4" y="10" width="14" height="52" rx="3"/><rect x="4" y="10" width="40" height="14" rx="3"/><rect x="4" y="29" width="50" height="14" rx="3"/><rect x="4" y="48" width="40" height="14" rx="3"/><rect x="66" y="10" width="14" height="52" rx="3"/><rect x="92" y="28" width="14" height="34" rx="3"/><circle cx="99" cy="17" r="7"/></g></svg>
+      <p id="who"></p>
+    </header>
+    <p id="chat-key" class="wrap fine key-note" hidden></p>
+    <div id="thread" class="wrap" aria-live="polite"></div>
+    <form id="composer" class="wrap" hidden>
+      <div id="attach-row" class="attach-row">
+        <button type="button" id="sample">Attach the sample lease</button>
+        <button type="button" id="choose">Choose a file</button>
+        <input id="file" type="file" accept=".txt,.md,.text,text/plain">
+      </div>
+      <div id="chip" class="chip" hidden></div>
+      <p id="form-error" class="form-error" hidden></p>
+      <div class="send-row">
+        <label class="sr" for="draft">Message</label>
+        <textarea id="draft" rows="2" placeholder="Attach your lease, then send it."></textarea>
+        <button class="primary" id="send" type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
