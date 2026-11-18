@@ -17,7 +17,9 @@
 
 ## Demo
 
-The demo video is not recorded yet.
+[Watch the 16 second demo](demo/eli-demo.mp4)
+
+<video src="demo/eli-demo.mp4" width="960" controls></video>
 
 ## Overview
 
@@ -31,7 +33,7 @@ The apartment in this demo is fictional: Apartment 4 at 18 Quill Street, owned b
 
 ## Quick start
 
-This commit does not include the app yet. When it is here, from the project folder:
+From the project folder:
 
 ```bash
 export XAI_API_KEY=your-key
@@ -39,8 +41,6 @@ npm start
 ```
 
 The app is at `http://localhost:4173`. The key stays in the environment. It is not committed.
-
-Tests, once the test file is in the tree:
 
 ```bash
 npm test
@@ -60,4 +60,10 @@ Node · a small local server · the xAI Grok API · JetBrains Mono
 
 ## Status
 
-Hackathon build. The sample lease and the statute text are being finished with the app. The place in the story is fictional.
+Hackathon build. The place in the story is fictional.
+
+## Grok
+
+This ran on Grok 4.7, high effort, with a 500k context window.
+
+![Grok 4.7, high effort, 500k context window](demo/grok-4.7.jpg)
