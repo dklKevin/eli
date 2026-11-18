@@ -1,32 +1,63 @@
-# Eli - AI Agent that ___
+<p align="center">
+  <img src="public/logo.svg" alt="Eli" width="280" />
+</p>
 
-At Yale, 86 percent of graduate and professional students live off campus.
+<h1 align="center">Eli</h1>
 
-When a 
-A Yale student rents off campus in New Haven, at 18 Quill Street, Apartment 4.
-Quill Harbor LLC owns the building.
-The place and the lease are fictional.
-In February the heat fails.
-The rules are in the lease and in Connecticut law.
-Both are hard to read, so the problem goes unattended.
+<p align="center">
+  An AI agent that helps an off-campus renter turn a housing problem into the right letter.
+</p>
 
-Eli knows this apartment.
-Eli reads the lease, quotes the lease and the Connecticut law, and writes a letter.
-The student sends that letter from their own mail app.
-The letter comes first, then a city complaint, then the 21 day court option.
+<p align="center">
+  <img alt="platform" src="https://img.shields.io/badge/platform-Web-2a5bd7" />
+  <img alt="runtime" src="https://img.shields.io/badge/Node-server-1c1917" />
+</p>
 
-In a September 2023 article, the [Yale Daily News](https://yaledailynews.com/articles/affordable-housing-crisis-leaves-grad-students-and-city-residents-scrambling) said 86 percent of Yale graduate and professional students live off campus, and 83 percent found their place through someone other than Yale.
+---
 
-## Technical notes
+## Demo
 
-A command to run the app is not in the tree yet.
-The environment variable name is `XAI_API_KEY`.
-This file includes no value for it.
+The demo video is not recorded yet.
 
-The fictional fixture is 18 Quill Street, Apartment 4, owned by Quill Harbor LLC.
-No fixture file is in the tree yet.
+## Overview
 
-The statute text will live in `law/ct-830.md`.
-That file is not in the tree yet.
+At Yale, 86 percent of graduate and professional students live off campus. In the same September 2023 [Yale Daily News](https://yaledailynews.com/articles/affordable-housing-crisis-leaves-grad-students-and-city-residents-scrambling) article, 83 percent found their place through someone other than Yale.
 
-No tests are in the tree yet.
+When a stove that came with the apartment stops working, the lease may say the repair is the tenant's, and Connecticut law may still put it on the landlord. Both documents are hard to read, so a lot of people send a short text, or they do nothing.
+
+Eli knows the address and the lease. It quotes the clause and the statute, says whose job the repair is, and writes the letter. The student sends that letter from their own mail app. After the letter comes a complaint to the city, and after that the 21 day option to pay rent to the court.
+
+The apartment in this demo is fictional: Apartment 4 at 18 Quill Street, owned by Quill Harbor LLC.
+
+## Quick start
+
+This commit does not include the app yet. When it is here, from the project folder:
+
+```bash
+export XAI_API_KEY=your-key
+npm start
+```
+
+The app is at `http://localhost:4173`. The key stays in the environment. It is not committed.
+
+Tests, once the test file is in the tree:
+
+```bash
+npm test
+```
+
+## Features
+
+- **The lease, then the letter.** The student sends the lease in the chat. Eli reads it and drafts the request.
+- **Quoted sources.** The answer cites the lease clause and the stored Connecticut statute text.
+- **Sent from the student's mail.** The letter opens in their own mail app.
+- **What comes next.** The letter, a city complaint, then the 21 day court option.
+- **A name, and that is the sign-in.** No school account.
+
+## Tech stack
+
+Node · a small local server · the xAI Grok API · JetBrains Mono
+
+## Status
+
+Hackathon build. The sample lease and the statute text are being finished with the app. The place in the story is fictional.
