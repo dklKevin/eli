@@ -4,14 +4,15 @@ A Yale student rents off campus in New Haven, at 18 Quill Street, Apartment 4.
 Quill Harbor LLC owns the building.
 The place and the lease are fictional.
 In February the heat fails.
-The rules sit in the lease and in the Connecticut statutes.
+The rules are in the lease and in Connecticut law.
 Both are hard to read, so the problem goes unattended.
 
-Eli knows this apartment, reads the lease, quotes the lease and the stored statute, and drafts a letter.
+Eli knows this apartment.
+Eli reads the lease, quotes the lease and the Connecticut law, and writes a letter.
 The student sends that letter from their own mail app.
-The sequence is the letter, then a city complaint, then the 21 day court option.
+The letter comes first, then a city complaint, then the 21 day court option.
 
-The [Yale Daily News](https://yaledailynews.com/articles/affordable-housing-crisis-leaves-grad-students-and-city-residents-scrambling) reported that an estimated 86 percent of Yale graduate and professional students live off campus, that graduate and professional students are being pushed to live off campus following the announcement that Helen Hadley Hall will close, and that the average rent in New Haven County in June 2022 was $1,953 per month.
+In a September 2023 article, the [Yale Daily News](https://yaledailynews.com/articles/affordable-housing-crisis-leaves-grad-students-and-city-residents-scrambling) said 86 percent of Yale graduate and professional students live off campus, and 83 percent found their place through someone other than Yale.
 
 ## Technical notes
 
