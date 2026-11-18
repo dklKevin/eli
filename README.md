@@ -11,12 +11,7 @@ Eli knows this apartment, reads the lease, quotes the lease and the stored statu
 The student sends that letter from their own mail app.
 The sequence is the letter, then a city complaint, then the 21 day court option.
 
-The Yale Daily News reported an estimate from Alex Rich, advocacy chair of the Graduate and Professional Student Senate, that 86 percent of Yale graduate and professional students live off campus.
-The same September 2023 article says that, in a 2023 survey by that senate, 83 percent of graduate students found their current housing through a source other than Yale.
-The article is [Affordable housing crisis leaves grad students and city residents scrambling](https://yaledailynews.com/articles/affordable-housing-crisis-leaves-grad-students-and-city-residents-scrambling).
-
-EliseAI says the company powers one in six apartments in the United States.
-That number is the company's own claim, in its [June 2026 post](https://eliseai.com/blog/eliseai-hits-200m-arr-after-five-consecutive-years-of-100-growth-across-housing-and-healthcare).
+The [Yale Daily News](https://yaledailynews.com/articles/affordable-housing-crisis-leaves-grad-students-and-city-residents-scrambling) reported that an estimated 86 percent of Yale graduate and professional students live off campus, that graduate and professional students are being pushed to live off campus following the announcement that Helen Hadley Hall will close, and that the average rent in New Haven County in June 2022 was $1,953 per month.
 
 ## Technical notes
 
